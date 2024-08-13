@@ -3,7 +3,7 @@ This project aims to develop a sentiment analysis tool that detects and
 analyzes public opinions related to climate change, specifically aligned with
 Sustainable Development Goal (SDG) 13: Climate Action. In this project,
 I aimed to finetune a DistilBERRT Model to make it more proficient in
-classifying sentiments within economic texts.
+classifying sentiments within texts.
 
 
 # Model Selection
@@ -21,9 +21,7 @@ Hugging Face model hub using the ‘transformers’library.
 The tokenizer associated with DistilBERT was also loaded to
 preprocess the text data.
 ● Sentiment Analysis Implementation: The sentiment analysis
-was implemented using the pre-trained DistilBERT model. A
-function was created to classify the sentiment of each text entry as
-positive, negative, or neutral.
+was implemented using the pre-trained DistilBERT model.
 
 
 # Fine-Tuning
@@ -52,4 +50,5 @@ models/: Directory where the fine-tuned model is saved.
 
 # Reference 
 SDGs - https://sdgs.un.org/goals
+Hugging face - https://huggingface.co/docs/transformers/model_doc/distilbert
 
